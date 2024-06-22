@@ -1,4 +1,8 @@
-# Spotify Clone React JS 18 & FireBase & TailwindCSS
+# Spotify Clone React JS 18 & FireBase & TailwindCSS & Spotify API
+
+## Prop Drilling ==> Coupled Code
+
+- Avoiding passing data from the component to an other using props is mandatory, using context api or Redux or any **state** management library will save us a lot of trouble dealing with data flow trough the whole app.
 
 # Getting Started with Create React App
 
