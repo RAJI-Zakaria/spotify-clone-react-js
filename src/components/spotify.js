@@ -1,7 +1,7 @@
 //throw the user to spotify to login
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 // then redirect back to localhost (well to my app)
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://spotify-clone-react-js-alpha.vercel.app/"; //"http://localhost:3000/";
 
 // Client ID from Spotify Developer Dashboard
 // no worries it's public ;)
