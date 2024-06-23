@@ -35,6 +35,7 @@ export const reducer = (state, action) => {
         ...state,
         discover_weekly: action.discover_weekly,
       };
+
     default:
       return state;
   }

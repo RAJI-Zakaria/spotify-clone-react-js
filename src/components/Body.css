@@ -4,8 +4,12 @@
   height: 100vh;
   color: white;
   padding: 30px;
-  overflow: scroll;
+  overflow-y: overlay;
   padding-bottom: 180px;
+}
+
+.body::-webkit-scrollbar {
+  display: none;
 }
 
 .body-info {

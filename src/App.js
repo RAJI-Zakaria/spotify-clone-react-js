@@ -40,7 +40,7 @@ function App() {
         });
         console.log(" ⏯️ ", playlists);
       });
-      //37i9dQZF1E3aexvAoc9l20
+      //0JQ5DAUnp4wcj0bCb3wh3S
       spotify.getPlaylist("37i9dQZF1E3aexvAoc9l20").then((response) => {
         dispatch({
           type: "SET_DISCOVER_WEEKLY",
