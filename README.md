@@ -1,4 +1,4 @@
-# Spotify Clone React JS 18 & FireBase & TailwindCSS & Spotify API
+# Spotify Clone React JS 18 & React Context & TailwindCSS & Spotify API
 
 <img src="./public/spotify-dev.png">
     - All playlist items is fetched from the connected user spotify account dynamically.
