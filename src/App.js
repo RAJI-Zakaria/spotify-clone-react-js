@@ -30,12 +30,6 @@ function App() {
           type: "SET_USER",
           user: user,
         });
-
-        dispatch({
-          type: "SET_PLAYLISTS",
-          token: playlists,
-        });
-
         console.log(" 👨‍🎨 ", user);
       });
 
@@ -45,6 +39,14 @@ function App() {
           playlists: playlists,
         });
         console.log(" ⏯️ ", playlists);
+      });
+      //37i9dQZF1E3aexvAoc9l20
+      spotify.getPlaylist("37i9dQZF1E3aexvAoc9l20").then((response) => {
+        dispatch({
+          type: "SET_DISCOVER_WEEKLY",
+          discover_weekly: response,
+        });
+        console.log(" 🎵 ", response);
       });
     }
   }, []);

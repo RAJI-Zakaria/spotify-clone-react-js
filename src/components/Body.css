@@ -1,0 +1,57 @@
+.body {
+  flex: 0.8;
+  background: linear-gradient(rgb(91, 87, 115), rgb(0, 0, 0));
+  height: 100vh;
+  color: white;
+  padding: 30px;
+  overflow: scroll;
+  padding-bottom: 180px;
+}
+
+.body-info {
+  display: flex;
+  gap: 15px;
+  /* align-items: flex-end; */
+  justify-content: space-between;
+}
+.body-info-text {
+  flex: 1;
+}
+.body-info-text > h2 {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.body-info-text > p {
+  font-size: 14px;
+}
+
+.body-info > img {
+  width: 220px;
+  border-radius: 10px;
+}
+
+.body-icons {
+  display: flex;
+  align-items: center;
+}
+
+.body-icons * {
+  cursor: pointer;
+}
+
+.body-shuffle {
+  font-size: 80px !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #1ed15e;
+}
+.body-shuffle:hover {
+  transition: 100ms transform ease-in;
+  transform: scale(1.08);
+}
+
+.body-icons > .MuiSvgIcon-root {
+  margin-right: 20px;
+}
