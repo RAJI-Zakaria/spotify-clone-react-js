@@ -1,11 +1,11 @@
 # Spotify Clone React JS 18 & React Context & TailwindCSS & Spotify API
 
 <img src="./public/spotify-dev.png">
-    - All playlist items is fetched from the connected user spotify account dynamically.
+- All playlist items are fetched dynamically from the connected user's Spotify account.
 
 ## Prop Drilling --> Coupled Code
 
-- Avoiding passing data from the component to an other using props is mandatory, using context api or Redux or any **state** management library will save us a lot of trouble dealing with data flow trough the whole app.
+- Avoiding passing data between components using props is mandatory. Using the Context API, Redux, or any state management library will save us a lot of trouble dealing with data flow throughout the entire app.
 
 # Getting Started with Create React App
 
