@@ -5,7 +5,7 @@ const SongRow = ({ track }) => {
     <div className="song-row">
       <img className="song-row-album" alt="" src={track.album.images[0].url} />
       <div className="song-row-info">
-        <h1>Test</h1>
+        <h1>{track.name}</h1>
         <p>
           {track.artists.map((artist) => artist.name).join(", ")} -{" "}
           {track.album.name}

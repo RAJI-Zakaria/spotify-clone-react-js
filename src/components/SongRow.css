@@ -4,6 +4,8 @@
   margin-left: 20px;
   color: white;
   z-index: 100;
+  padding: 10px;
+  transition: all 100ms ease-in;
 }
 
 .song-row:hover {
